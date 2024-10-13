@@ -9,7 +9,6 @@ __pycache__/
 # Data files
 /data/**
 /notebooks/**
-/models/**
 
 # Python venv
 python3.**/**
