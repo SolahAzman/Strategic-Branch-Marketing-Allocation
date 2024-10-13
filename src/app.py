@@ -38,6 +38,7 @@ solution = heuristic_budget_cut(data, itm, val, pop, wgh, capacity_max, capacity
 # Result
 st.write("Binary Knapsack Result:")
 chart_data = solution[['Budget', 'Total_Value']]
-fig = px.line(chart_data, x='Budget', y='Total_Value', title='Budget vs Total Value')
+fig = px.line(chart_data.sort_values('Budget', ascending=False), x='Budget', y='Total_Value', title='Budget vs Total Value') 
+# TODO: change the plot X-axis to ascending order
 st.plotly_chart(fig)
 st.dataframe(solution)
