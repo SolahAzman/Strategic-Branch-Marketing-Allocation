@@ -21,10 +21,10 @@ Find the biggest possible budget cut with minimal estimated sales impact.
 -   Perform regression between sales amount and population. If sales amount of a branch is below the best fitted line then value of the branch is the value of best fitted line else sales amount will be the branch value.
 -   Knapsack optimization is a problem-solving technique used in resource allocation and decision-making. It involves selecting a combination of items with different values and weights to maximize the total value while staying within a weight limit. This concept is like packing a knapsack with the most valuable items without exceeding its capacity. In budget allocation, this approach applies where branches are items, sales amounts are values, requested budgets are weights, and total budget is threshold.
 -   The specific knapsack type used in this project is 0-1. The following is the algorithm used.
-  -   Greedy
-  -   Local Hill Climbing
-  -   Simulated Anneahling
-  -   Genetic Algorithm
+    -   Greedy
+    -   Local Hill Climbing
+    -   Simulated Anneahling
+    -   Genetic Algorithm
 -    Iterate the process multiple time with reduced threshold.
 
 # Imporovement
